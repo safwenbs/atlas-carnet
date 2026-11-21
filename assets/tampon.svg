@@ -1,0 +1,17 @@
+<svg viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg"><defs><filter id="ink18" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="7" result="n1"></feTurbulence>
+    <feDisplacementMap in="SourceGraphic" in2="n1" scale="2.6" xChannelSelector="R" yChannelSelector="G" result="d"></feDisplacementMap>
+    <feTurbulence type="fractalNoise" baseFrequency=".045 .07" numOctaves="3" seed="10" result="n2"></feTurbulence>
+    <feColorMatrix in="n2" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -8 0 0 0 6" result="m"></feColorMatrix>
+    <feTurbulence type="fractalNoise" baseFrequency="1.6" numOctaves="1" seed="16" result="n3"></feTurbulence>
+    <feColorMatrix in="n3" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -15 0 0 0 9.5" result="m2"></feColorMatrix>
+    <feComposite in="m" in2="m2" operator="in" result="mm"></feComposite>
+    <feComposite in="d" in2="mm" operator="in"></feComposite></filter></defs><g filter="url(#ink18)" opacity=".9"><ellipse cx="110" cy="75" rx="104" ry="68" fill="none" stroke="#A6463B" stroke-width="4.5"></ellipse>
+      <ellipse cx="110" cy="75" rx="95" ry="59" fill="none" stroke="#A6463B" stroke-width="1.6" stroke-dasharray="2.5 3.2"></ellipse>
+      <path id="t19" d="M28 78 A82 50 0 0 1 192 78" fill="none"></path><path id="t20" d="M34 80 A76 48 0 0 0 186 80" fill="none"></path>
+      <text font-family="Georgia,serif" font-size="19" letter-spacing="3" fill="#A6463B" font-weight="700"><textPath href="#t19" startOffset="50%" text-anchor="middle">JAPON</textPath></text>
+      <text font-family="Roboto,sans-serif" font-size="11.5" letter-spacing="4" fill="#A6463B" font-weight="700"><textPath href="#t20" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">· ARRIVÉE ·</textPath></text>
+      <g transform="translate(26 63) scale(1.05) rotate(90 12 12)" fill="none" stroke="#A6463B" stroke-width="2" stroke-linejoin="round"><path d="M10.5 21 12 18l1.5 3M12 18V13l8 3v-2l-8-5V4.5a1 1 0 0 0-2 0V9L2 14v2l8-3v5"></path></g>
+      <g transform="translate(169 63) scale(1.05) rotate(90 12 12)" fill="none" stroke="#A6463B" stroke-width="2" stroke-linejoin="round"><path d="M10.5 21 12 18l1.5 3M12 18V13l8 3v-2l-8-5V4.5a1 1 0 0 0-2 0V9L2 14v2l8-3v5"></path></g>
+      
+      <text x="110" y="110" text-anchor="middle" font-family="Roboto Mono,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#A6463B">12 AVR 2026</text></g><g opacity=".93"><clipPath id="t19f"><rect x="80" y="54" width="60" height="40" rx="6"></rect></clipPath><image href="drapeau-jp.svg" x="80" y="54" width="60" height="40" preserveAspectRatio="none" clip-path="url(#t19f)" class="stamp-flag"></image><rect x="80" y="54" width="60" height="40" rx="6" fill="none" stroke="#A6463B" stroke-width="1.2" opacity=".5"></rect></g></svg>
